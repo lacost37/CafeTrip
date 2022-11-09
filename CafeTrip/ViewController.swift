@@ -48,8 +48,8 @@ class ViewController: UIViewController {
    
     @IBAction func signInAction(_ sender: Any) {
         guard textFiledLogin.hasText && textFieldPass.hasText else { return alert(title: "You left the field empty", message: "Fill in the field.", style: .alert)}
-        let newVc = storyboard?.instantiateViewController(withIdentifier: "ViewControllerTwo")
-        navigationController?.pushViewController(newVc!, animated: true)
+        let newVc = storyboard?.instantiateViewController(withIdentifier: "ViewControllerTwo") as! ViewControllerTwo
+        navigationController?.pushViewController(newVc, animated: true)
     }
     
     @IBAction func eyeButtonAction(_ sender: Any) {
