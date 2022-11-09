@@ -348,6 +348,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Чек" id="APb-ly-2ed"/>
                     <connections>
+                        <outlet property="buttonChtck" destination="DCe-75-oco" id="lgJ-pU-ojA"/>
                         <outlet property="nameLabel" destination="ptF-16-AwH" id="CJ5-Hw-eoV"/>
                         <outlet property="numGue" destination="ORL-1q-Yum" id="iEy-Dw-TxH"/>
                         <outlet property="numOfTab" destination="nEw-Dx-DoI" id="Lzi-5S-u25"/>
